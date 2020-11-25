@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
 body {
 font-family: 'Montserrat',
 sans-serif;
@@ -9,7 +10,13 @@ sans-serif;
     --primary-color : #4F46E5;
     --dark-gray:  #6B7280;
     --light-gray: #D1D5DB;
+    font-weight: 500;
 
+}
+
+.bold-font{
+    font-family: 'IBM Plex Sans',
+    sans-serif;
 }
 
 hr{
@@ -111,7 +118,13 @@ hr{
 
 .section-heading-center{
     text-align: center;
-    color: white;
+    color: black;
+}
+
+
+.section-heading-center .proj {
+    
+    color: black;
 }
 
 .section-gray-section .section-boldtext{
