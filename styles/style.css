@@ -6,9 +6,9 @@ sans-serif;
 }
 
 :root{
-    --primary-color : #7C3AED;
+    --primary-color : #4F46E5;
     --dark-gray:  #6B7280;
-    --light-gray:#d1d5db;
+    --light-gray: #D1D5DB;
 
 }
 
@@ -105,8 +105,17 @@ hr{
     text-align: center;
 }
 
+.hero .hero-heading .hero-inverted{
+     color: var(--primary-color);
+}
+
 .section-heading-center{
     text-align: center;
+    color: white;
+}
+
+.section-gray-section .section-boldtext{
+    font-weight: bolder;
 }
 .section-text-center{
     text-align: center;
