@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-font-family: 'Noto Sans JP',
+font-family: 'Montserrat',
 sans-serif;
 }
 
@@ -20,7 +20,7 @@ hr{
 /* container */
 
 .container{
-   padding: 2rem;
+   padding: 1rem;
 }
 
 .container-center{
@@ -31,7 +31,15 @@ hr{
 .link{
    text-decoration-line: none;
    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+   margin-bottom: 1rem; 
 }
+
+.navigator .link-active{
+    font-weight: bold; 
+}
+
+
 
 .link-primary{
      background-color: var(--primary-color);
@@ -55,6 +63,11 @@ hr{
 .list-inline-items{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.list-center{
+    margin: auto;
+    text-align: center;
 }
 
 .navigator{
@@ -83,6 +96,7 @@ hr{
     margin: auto;
     max-width: 400px;
     display: block;
+    padding: 2rem;
 }
 
 .hero .hero-heading{
@@ -100,11 +114,13 @@ hr{
 }
  .gray-section{
     background-color: var(--light-gray);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
 }
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     text-align: center;
     color: white;
 }
@@ -121,3 +137,15 @@ hr{
     font-size: large;
 }
    
+.projects .date {
+    margin-bottom: -0.7rem;
+    font-size: 0.8rem;
+
+}
+
+.projects ul{
+    padding-inline-start: 0px;
+    margin-block-start: 1em;
+}
+
+
