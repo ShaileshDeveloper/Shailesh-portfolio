@@ -103,9 +103,9 @@ hr{
 
  .hero-image{
     margin: auto;
-    max-width: 100%;
-    max-width: 350px;
-    display: block;
+        max-width: 100%;
+        max-width: 350px;
+        display: block;
     padding: 2rem;
 }
 
